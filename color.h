@@ -12,6 +12,9 @@
 #define MAGENTA printf("\e[38;5;176m");
 #define GREEN printf("\e[38;5;114m");
 
+#define RED printf("\e[0;31m");
+#define CORRECT printf("\e[0;32m");
+
 //BACKGROUND COLOR
 #define WHITE printf("\e[38;50m")
 

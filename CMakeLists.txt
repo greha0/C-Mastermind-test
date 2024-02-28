@@ -7,4 +7,6 @@ add_executable(C_Mastermind
         main.c
         menu.c
         menu.h
+        gameFunction.c
+        gameFunction.h
 )

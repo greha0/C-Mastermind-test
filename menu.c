@@ -15,36 +15,57 @@ void menuIniz (){
 }
 
 void legenda(){
-    printf("+--------------------------+\n");
+    printf("+---------------------------------+\n");
 
     //CYAN
 
-    printf("|   c   | Cyan     |");
+    printf("|   1   | Cyan            |");
     CYAN;
     printf("   @   ");
     DEFAULT;
     printf("|\n");
 
     //PURPLE
-    printf("|   p   | Purple   |");
+    printf("|   2   | Purple          |");
     PURPLE;
     printf("   @   ");
     DEFAULT;
     printf("|\n");
 
     //MAGENTA
-    printf("|   m   | Magenta  |");
+    printf("|   3   | Magenta         |");
     MAGENTA;
     printf("   @   ");
     DEFAULT;
     printf("|\n");
 
     //ORANGE
-    printf("|   g   | Green    |");
+    printf("|   4   | Green           |");
     GREEN;
     printf("   @   ");
     DEFAULT;
     printf("|\n");
 
-    printf("+--------------------------+\n\n");
+    //POSIZIONE ERRATA
+
+    printf("|  -1   | Posto errato    |");
+    RED;
+    printf("   !   ");
+    DEFAULT;
+    printf("|\n");
+
+    //CORRETTA
+    printf("|   0   | Posto giusto    |");
+    CORRECT;
+    printf("   v   ");
+    DEFAULT;
+    printf("|\n");
+
+    //CIFRA NON PRESENTE
+
+    printf("|  -2   | Non presente    |");
+    printf("   x   ");
+    printf("|\n");
+
+    printf("+---------------------------------+\n\n");
 }
